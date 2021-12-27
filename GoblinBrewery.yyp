@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"ts_testTiles","path":"tilesets/ts_testTiles/ts_testTiles.yy",},"order":0,},
+    {"id":{"name":"ts_ourdoorTiles","path":"tilesets/ts_ourdoorTiles/ts_ourdoorTiles.yy",},"order":0,},
     {"id":{"name":"spr_testTiles","path":"sprites/spr_testTiles/spr_testTiles.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
