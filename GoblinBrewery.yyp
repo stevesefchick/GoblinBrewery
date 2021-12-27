@@ -1,7 +1,7 @@
 {
   "resources": [
-    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
-    {"id":{"name":"testtiles","path":"sprites/testtiles/testtiles.yy",},"order":1,},
+    {"id":{"name":"ts_testTiles","path":"tilesets/ts_testTiles/ts_testTiles.yy",},"order":0,},
+    {"id":{"name":"spr_testTiles","path":"sprites/spr_testTiles/spr_testTiles.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

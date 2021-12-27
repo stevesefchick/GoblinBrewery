@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "testtiles",
-    "path": "sprites/testtiles/testtiles.yy",
+    "name": "spr_testTiles",
+    "path": "sprites/spr_testTiles/spr_testTiles.yy",
   },
   "tileWidth": 64,
   "tileHeight": 64,
@@ -136,7 +136,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TileSet1",
+  "name": "ts_testTiles",
   "tags": [],
   "resourceType": "GMTileSet",
 }
