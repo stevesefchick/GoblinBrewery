@@ -1,7 +1,9 @@
 {
   "resources": [
     {"id":{"name":"ts_ourdoorTiles","path":"tilesets/ts_ourdoorTiles/ts_ourdoorTiles.yy",},"order":0,},
-    {"id":{"name":"spr_testTiles","path":"sprites/spr_testTiles/spr_testTiles.yy",},"order":1,},
+    {"id":{"name":"spr_outdoorTiles","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"order":1,},
+    {"id":{"name":"ts_outdoorObjects","path":"tilesets/ts_outdoorObjects/ts_outdoorObjects.yy",},"order":1,},
+    {"id":{"name":"spr_outdoorObjectTiles","path":"sprites/spr_outdoorObjectTiles/spr_outdoorObjectTiles.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

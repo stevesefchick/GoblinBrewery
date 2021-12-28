@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_outdoorTiles",
-    "path": "sprites/spr_outdoorTiles/spr_outdoorTiles.yy",
+    "name": "spr_outdoorObjectTiles",
+    "path": "sprites/spr_outdoorObjectTiles/spr_outdoorObjectTiles.yy",
   },
   "tileWidth": 64,
   "tileHeight": 64,
@@ -9,7 +9,7 @@
   "tileyoff": 0,
   "tilehsep": 0,
   "tilevsep": 0,
-  "spriteNoExport": false,
+  "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -136,7 +136,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ts_ourdoorTiles",
+  "name": "ts_outdoorObjects",
   "tags": [],
   "resourceType": "GMTileSet",
 }

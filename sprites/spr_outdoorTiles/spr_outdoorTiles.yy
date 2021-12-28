@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7e7a368b-5bd0-470c-9107-015b2a52eb1a","path":"sprites/spr_testTiles/spr_testTiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7e7a368b-5bd0-470c-9107-015b2a52eb1a","path":"sprites/spr_testTiles/spr_testTiles.yy",},"LayerId":{"name":"b26c8c24-78c9-4cbe-b5c0-d22aeeeae8be","path":"sprites/spr_testTiles/spr_testTiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_testTiles","path":"sprites/spr_testTiles/spr_testTiles.yy",},"resourceVersion":"1.0","name":"7e7a368b-5bd0-470c-9107-015b2a52eb1a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6383f5ca-4c5e-4518-abd1-fce3cf2793be","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6383f5ca-4c5e-4518-abd1-fce3cf2793be","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"LayerId":{"name":"a2450fb5-04d8-4d38-be04-7009c185e4cc","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_outdoorTiles","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"resourceVersion":"1.0","name":"6383f5ca-4c5e-4518-abd1-fce3cf2793be","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_testTiles","path":"sprites/spr_testTiles/spr_testTiles.yy",},
+    "spriteId": {"name":"spr_outdoorTiles","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"87de762b-6f65-4046-91e1-62d0ad3db94f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e7a368b-5bd0-470c-9107-015b2a52eb1a","path":"sprites/spr_testTiles/spr_testTiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"89d73243-368b-4438-8f82-20286a9812ab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6383f5ca-4c5e-4518-abd1-fce3cf2793be","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_testTiles","path":"sprites/spr_testTiles/spr_testTiles.yy",},
+    "parent": {"name":"spr_outdoorTiles","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_testTiles",
+    "name": "spr_outdoorTiles",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b26c8c24-78c9-4cbe-b5c0-d22aeeeae8be","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a2450fb5-04d8-4d38-be04-7009c185e4cc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 0,
@@ -97,7 +97,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_testTiles",
+  "name": "spr_outdoorTiles",
   "tags": [],
   "resourceType": "GMSprite",
 }
