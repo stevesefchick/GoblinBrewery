@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b6807278-0ef3-4c49-8191-2fe617e3913b","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b6807278-0ef3-4c49-8191-2fe617e3913b","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"LayerId":{"name":"76838780-f062-4fa9-9e87-4669c67ee64d","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_woodinterior_autotile","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"resourceVersion":"1.0","name":"b6807278-0ef3-4c49-8191-2fe617e3913b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a7f2695c-e0cb-4727-adeb-c651af5594d4","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a7f2695c-e0cb-4727-adeb-c651af5594d4","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"LayerId":{"name":"4d30f7a8-5c39-4692-a86d-6a5e54cf7b18","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_woodinterior_autotile","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"resourceVersion":"1.0","name":"a7f2695c-e0cb-4727-adeb-c651af5594d4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_woodinterior_autotile","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e0145650-2d05-4637-9ebe-82e947c912c2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b6807278-0ef3-4c49-8191-2fe617e3913b","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2e4645b6-2b8f-4ea8-b9c4-eeff160b22be","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a7f2695c-e0cb-4727-adeb-c651af5594d4","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"76838780-f062-4fa9-9e87-4669c67ee64d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4d30f7a8-5c39-4692-a86d-6a5e54cf7b18","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
