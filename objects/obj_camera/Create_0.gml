@@ -1,7 +1,8 @@
 /// @description 
-
-camera_x_pos=800;
-camera_y_pos=800;
+max_speed = 3;
+min_speed=1;
+speed_interval=0.35;
+current_speed=1;
 
 
 x = 800;
