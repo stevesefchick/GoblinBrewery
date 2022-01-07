@@ -7,6 +7,7 @@
     {"id":{"name":"spr_woodinterior_autotile","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"order":5,},
     {"id":{"name":"ts_outdoorObjects","path":"tilesets/ts_outdoorObjects/ts_outdoorObjects.yy",},"order":1,},
     {"id":{"name":"ts_woodinteriorAutoTile","path":"tilesets/ts_woodinteriorAutoTile/ts_woodinteriorAutoTile.yy",},"order":4,},
+    {"id":{"name":"DetermineNextLevel","path":"scripts/DetermineNextLevel/DetermineNextLevel.yy",},"order":0,},
     {"id":{"name":"obj_gameHelper","path":"objects/obj_gameHelper/obj_gameHelper.yy",},"order":0,},
     {"id":{"name":"spr_outdoorObjectTiles","path":"sprites/spr_outdoorObjectTiles/spr_outdoorObjectTiles.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

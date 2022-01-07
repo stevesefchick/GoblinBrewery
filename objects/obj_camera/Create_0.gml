@@ -5,6 +5,8 @@ min_speed=1;
 speed_interval=0.35;
 current_speed=1;
 
+
+
 //left bounds
 camera_left_bounds=400;
 //right bounds
