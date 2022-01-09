@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 639,
+  "bbox_right": 575,
   "bbox_top": 0,
-  "bbox_bottom": 639,
+  "bbox_bottom": 127,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 640,
-  "height": 640,
+  "width": 576,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"57ee7cff-b43a-4d18-8b71-28e89e46a3ba","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"57ee7cff-b43a-4d18-8b71-28e89e46a3ba","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"LayerId":{"name":"04085662-493b-4fe9-a302-5c91cc468822","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_outdoorTiles","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"resourceVersion":"1.0","name":"57ee7cff-b43a-4d18-8b71-28e89e46a3ba","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c521276d-cbe8-4daa-9cc8-b9694aca55e8","path":"sprites/spr_grass_autotile/spr_grass_autotile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c521276d-cbe8-4daa-9cc8-b9694aca55e8","path":"sprites/spr_grass_autotile/spr_grass_autotile.yy",},"LayerId":{"name":"856b404a-d970-4b47-b386-3ba15a34aa73","path":"sprites/spr_grass_autotile/spr_grass_autotile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_grass_autotile","path":"sprites/spr_grass_autotile/spr_grass_autotile.yy",},"resourceVersion":"1.0","name":"c521276d-cbe8-4daa-9cc8-b9694aca55e8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_outdoorTiles","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},
+    "spriteId": {"name":"spr_grass_autotile","path":"sprites/spr_grass_autotile/spr_grass_autotile.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5b860c51-fa18-4a23-9823-3d13713e6c67","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"57ee7cff-b43a-4d18-8b71-28e89e46a3ba","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"afbb4a0e-1ac2-4bbb-b123-acb63a792759","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c521276d-cbe8-4daa-9cc8-b9694aca55e8","path":"sprites/spr_grass_autotile/spr_grass_autotile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_outdoorTiles","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},
+    "parent": {"name":"spr_grass_autotile","path":"sprites/spr_grass_autotile/spr_grass_autotile.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_outdoorTiles",
+    "name": "spr_grass_autotile",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"04085662-493b-4fe9-a302-5c91cc468822","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"856b404a-d970-4b47-b386-3ba15a34aa73","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 0,
@@ -97,7 +97,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_outdoorTiles",
+  "name": "spr_grass_autotile",
   "tags": [],
   "resourceType": "GMSprite",
 }
