@@ -1,6 +1,6 @@
 /// @description 
 //movement speed
-max_speed = 5;
+max_speed = 7;
 min_speed=1;
 speed_interval=0.35;
 current_speed=1;
