@@ -6,3 +6,8 @@ currentReputationPoints=0;
 nextLevelReputationPoints=DetermineNextLevel(0);
 //set up mission objective grid
 CreateMissionObjectiveDataGrid("mission 1","money","horse","it's time for horse",0,100,0,"locked");
+//create flavor grids
+CreateMaltFlavorGrid();
+
+//test
+DetermineMaltFlavorProfile(3,9);
