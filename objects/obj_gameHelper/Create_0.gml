@@ -11,7 +11,8 @@ CreateMissionObjectiveDataGrid("mission 1","money","horse","it's time for horse"
 
 //create ingredient properties
 CreateIngredientPropertyGrid();
-
+//create brew properties
+CreateBrewBaseAttributeGrid();
 
 
 

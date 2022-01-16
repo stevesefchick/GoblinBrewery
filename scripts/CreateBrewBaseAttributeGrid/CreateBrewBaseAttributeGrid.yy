@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Ingredients, Inventory, Brewing, Recipes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "CreateIngredientPropertyGrid",
+  "name": "CreateBrewBaseAttributeGrid",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -14,7 +14,7 @@ function CreateIngredientPropertyGrid(){
 	var ingredient_sour_flavor=7;
 	var ingredient_sprite=8;
 	
-	ds_ingredient_properties = ds_grid_create(9,2);
+	ds_ingredient_properties = ds_grid_create(9,5);
 	
 	for (var counter=0;counter<ds_grid_height(ds_ingredient_properties);counter++)
 	{
