@@ -31,6 +31,7 @@ function CreateBrewBaseAttributeGrid(){
 			
 			
 			//debug messaging
+			/*
 			show_debug_message(ds_grid_get(ds_brew_base_attributes,base_brew_name,counter));
 			show_debug_message(ds_grid_get(ds_brew_base_attributes,base_brew_base_cost,counter));
 			show_debug_message(ds_grid_get(ds_brew_base_attributes,base_brew_bitter_range,counter));
@@ -40,10 +41,10 @@ function CreateBrewBaseAttributeGrid(){
 			show_debug_message(ds_grid_get(ds_brew_base_attributes,base_brew_sour_range,counter));
 			show_debug_message(ds_grid_get(ds_brew_base_attributes,base_brew_quality_min,counter));
 			show_debug_message(ds_grid_get(ds_brew_base_attributes,base_brew_sprite,counter));
-			
+			*/
 
 		}
 	}
 	
-	
+	GetBrewBaseInfo("ale");
 }

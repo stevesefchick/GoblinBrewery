@@ -14,15 +14,3 @@ CreateIngredientPropertyGrid();
 //create brew properties
 CreateBrewBaseAttributeGrid();
 
-
-
-
-
-
-//create flavor grids
-//can delete
-//CreateMaltFlavorGrid();
-
-//test
-//can delete
-//DetermineMaltFlavorProfile(3,9);
