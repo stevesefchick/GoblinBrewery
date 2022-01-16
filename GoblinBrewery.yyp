@@ -6,6 +6,7 @@
     {"id":{"name":"spr_outdoorTiles","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"order":1,},
     {"id":{"name":"CreateBrewBaseAttributeGrid","path":"scripts/CreateBrewBaseAttributeGrid/CreateBrewBaseAttributeGrid.yy",},"order":1,},
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},"order":1,},
+    {"id":{"name":"DetermineResearchResult","path":"scripts/DetermineResearchResult/DetermineResearchResult.yy",},"order":3,},
     {"id":{"name":"spr_woodinterior_autotile","path":"sprites/spr_woodinterior_autotile/spr_woodinterior_autotile.yy",},"order":5,},
     {"id":{"name":"ts_grassAutoTile","path":"tilesets/ts_grassAutoTile/ts_grassAutoTile.yy",},"order":5,},
     {"id":{"name":"ts_outdoorObjects","path":"tilesets/ts_outdoorObjects/ts_outdoorObjects.yy",},"order":1,},

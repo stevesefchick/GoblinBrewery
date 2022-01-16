@@ -12,6 +12,7 @@ function CreateBrewBaseAttributeGrid(){
 	var base_brew_sour_range=6;
 	var base_brew_quality_min=7;
 	var base_brew_sprite=8;
+	//TODO: Create functions for these so they can be switched if needed
 	
 	ds_brew_base_attributes = ds_grid_create(9,1);
 	
