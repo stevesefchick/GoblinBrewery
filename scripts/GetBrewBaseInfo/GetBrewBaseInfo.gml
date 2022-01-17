@@ -19,11 +19,31 @@ function GetBrewBaseRow(brew_name){
 	return y_val;
 }
 
+function GetBrewName(y_val){
+
+	return (ds_grid_get(ds_brew_base_attributes,0,y_val));
+	
+}
+
 function IsBrewBitterValueInRange(y_val,bittervalue)
 {
-	var bitter_range = ds_grid_get(dr_brew_base_attributes,2,y_val);
+	var bitter_range = ds_grid_get(ds_brew_base_attributes,2,y_val);
 	
 	if (bittervalue >= bitter_range[0] && bittervalue < bitter_range[1])
+	{
+		return true;	
+	}
+	else
+	{
+		return false;	
+	}
+}
+
+function IsBrewBreadValueInRange(y_val,breadvalue)
+{
+	var bread_range = ds_grid_get(ds_brew_base_attributes,2,y_val);
+	
+	if (breadvalue >= bread_range[0] && breadvalue < bread_range[1])
 	{
 		return true;	
 	}
