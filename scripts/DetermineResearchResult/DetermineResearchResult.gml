@@ -11,7 +11,7 @@ function DetermineResearchResult(malt,spice,worker_skill_level){
 	var possible_brews=FindEligibleRecipesFromBrewList(totalbitterflavor,totalbreadflavor);
 	
 	//return a random possible brew
-	return possible_brews[random_range(0,array_length(possible_brews)-1)];
+	//return possible_brews[random_range(0,array_length(possible_brews)-1)];
 }
 	
 	

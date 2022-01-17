@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"spr_goblinsheet","path":"sprites/spr_goblinsheet/spr_goblinsheet.yy",},"order":7,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":2,},
+    {"id":{"name":"obj_worker","path":"objects/obj_worker/obj_worker.yy",},"order":2,},
     {"id":{"name":"obj_mission_stats_parent","path":"objects/obj_mission_stats_parent/obj_mission_stats_parent.yy",},"order":3,},
     {"id":{"name":"ts_ourdoorTiles","path":"tilesets/ts_ourdoorTiles/ts_ourdoorTiles.yy",},"order":0,},
     {"id":{"name":"spr_outdoorTiles","path":"sprites/spr_outdoorTiles/spr_outdoorTiles.yy",},"order":1,},
