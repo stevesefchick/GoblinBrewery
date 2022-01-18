@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_goblinsheet",
-    "path": "sprites/spr_goblinsheet/spr_goblinsheet.yy",
+    "name": "spr_goblin_idle",
+    "path": "sprites/spr_goblin_idle/spr_goblin_idle.yy",
   },
   "solid": false,
   "visible": true,
