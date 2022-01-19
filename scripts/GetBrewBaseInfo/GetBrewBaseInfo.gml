@@ -52,3 +52,45 @@ function IsBrewBreadValueInRange(y_val,breadvalue)
 		return false;	
 	}
 }
+
+function IsBrewSweetValueInRange(y_val,sweetvalue)
+{
+	var sweet_range = ds_grid_get(ds_brew_base_attributes,2,y_val);
+	
+	if (sweetvalue >= sweet_range[0] && sweetvalue < sweet_range[1])
+	{
+		return true;	
+	}
+	else
+	{
+		return false;	
+	}
+}
+
+function IsBrewStrongValueInRange(y_val,strongvalue)
+{
+	var strong_range = ds_grid_get(ds_brew_base_attributes,2,y_val);
+	
+	if (strongvalue >= strong_range[0] && strongvalue < strong_range[1])
+	{
+		return true;	
+	}
+	else
+	{
+		return false;	
+	}
+}
+
+function IsBrewSourValueInRange(y_val,sourvalue)
+{
+	var sour_range = ds_grid_get(ds_brew_base_attributes,2,y_val);
+	
+	if (sourvalue >= sour_range[0] && sourvalue < sour_range[1])
+	{
+		return true;	
+	}
+	else
+	{
+		return false;	
+	}
+}
