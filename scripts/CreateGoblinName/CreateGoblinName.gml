@@ -26,6 +26,11 @@ function GetGoblinFirstName()
 	array_push(gobbonamelist,"Nat");
 	array_push(gobbonamelist,"Grizz");
 	array_push(gobbonamelist,"Plum");
+	array_push(gobbonamelist,"Grib");
+	array_push(gobbonamelist,"Jex");
+	array_push(gobbonamelist,"Srak");
+	array_push(gobbonamelist,"Jann");
+	array_push(gobbonamelist,"Rnon");
 	
 	return gobbonamelist[random_range(0,array_length(gobbonamelist))];
 	
@@ -42,6 +47,11 @@ function GetGoblinLastName()
 	array_push(gobbolastnamelist,"Sporkle");
 	array_push(gobbolastnamelist,"Mudluck");
 	array_push(gobbolastnamelist,"Stynx");
+	array_push(gobbolastnamelist,"Pringle");
+	array_push(gobbolastnamelist,"Bruul");
+	array_push(gobbolastnamelist,"Scubble");
+	array_push(gobbolastnamelist,"Rex");
+	array_push(gobbolastnamelist,"Bismo");
 	
 	return gobbolastnamelist[random_range(0,array_length(gobbolastnamelist))];
 	
