@@ -23,6 +23,7 @@ function GetGoblinFirstName()
 	array_push(gobbonamelist,"Kugz");
 	array_push(gobbonamelist,"Ick");
 	array_push(gobbonamelist,"Skuzzy");
+	array_push(gobbonamelist,"Dud");
 	array_push(gobbonamelist,"Nat");
 	array_push(gobbonamelist,"Grizz");
 	array_push(gobbonamelist,"Plum");
@@ -31,6 +32,14 @@ function GetGoblinFirstName()
 	array_push(gobbonamelist,"Srak");
 	array_push(gobbonamelist,"Jann");
 	array_push(gobbonamelist,"Rnon");
+	array_push(gobbonamelist,"Jaz");
+	array_push(gobbonamelist,"Grukkzus");
+	array_push(gobbonamelist,"Blep");
+	array_push(gobbonamelist,"Glegg");
+	array_push(gobbonamelist,"Bro");
+	array_push(gobbonamelist,"Crem");
+	array_push(gobbonamelist,"Piss");
+	array_push(gobbonamelist,"Grag");
 	
 	return gobbonamelist[random_range(0,array_length(gobbonamelist))];
 	
@@ -52,6 +61,17 @@ function GetGoblinLastName()
 	array_push(gobbolastnamelist,"Scubble");
 	array_push(gobbolastnamelist,"Rex");
 	array_push(gobbolastnamelist,"Bismo");
+	array_push(gobbolastnamelist,"Nklar");
+	array_push(gobbolastnamelist,"Slhar");
+	array_push(gobbolastnamelist,"Spitz");
+	array_push(gobbolastnamelist,"Sprak");
+	array_push(gobbolastnamelist,"Spek");
+	array_push(gobbolastnamelist,"Bembo");
+	array_push(gobbolastnamelist,"Rikrak");
+	array_push(gobbolastnamelist,"Hellass");
+	array_push(gobbolastnamelist,"Blip");
+	array_push(gobbolastnamelist,"Snack");
+	array_push(gobbolastnamelist,"Snek");
 	
 	return gobbolastnamelist[random_range(0,array_length(gobbolastnamelist))];
 	

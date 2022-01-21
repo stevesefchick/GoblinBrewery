@@ -14,3 +14,5 @@ else if (current_worker_state == worker_state.Wandering)
    }
 }
 
+depth = -y;
+
