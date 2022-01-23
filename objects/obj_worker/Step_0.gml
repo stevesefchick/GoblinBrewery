@@ -17,6 +17,9 @@ else if (current_worker_state == worker_state.Wandering)
    //check for collisions
 	if (place_meeting(x,y,obj_collision))
 	{
+		//move back to previous x,y and change state to idle
+		x = xprevious;
+		y=yprevious;
 		current_worker_state=worker_state.Idle;
 	}
 }

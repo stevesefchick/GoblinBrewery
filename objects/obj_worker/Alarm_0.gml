@@ -1,7 +1,5 @@
 /// @description State delay changes (Idle/Wandering)
 
-show_debug_message("Alarm went off");
-
 if (current_worker_state == worker_state.Idle)
 {
 	current_worker_state=worker_state.Wandering;
@@ -18,10 +16,10 @@ if (current_worker_state == worker_state.Idle)
 	}
 	
 	
-	alarm[0] = room_speed * random_range(2,5);
+	alarm[0] = room_speed * random_range(1,4);
 }
 else if (current_worker_state == worker_state.Wandering)
 {
 	current_worker_state=worker_state.Idle;
-	alarm[0] = room_speed * random_range(1,3);
+	alarm[0] = room_speed * random_range(1,2);
 }
