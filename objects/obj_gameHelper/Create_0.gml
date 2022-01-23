@@ -1,5 +1,8 @@
 /// @Game Helper scripts and global variables
 
+//debug flag
+debugMode=true;
+
 //overall stats
 //TODO: Move this over to a list or map
 reputationLevel=0;
