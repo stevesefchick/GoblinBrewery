@@ -24,8 +24,10 @@
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"order":9,},
     {"id":{"name":"CreateIngredientPropertyGrid","path":"scripts/CreateIngredientPropertyGrid/CreateIngredientPropertyGrid.yy",},"order":0,},
     {"id":{"name":"CreateMissionObjectiveDataGrid","path":"scripts/CreateMissionObjectiveDataGrid/CreateMissionObjectiveDataGrid.yy",},"order":1,},
+    {"id":{"name":"CreateFurniturePropertyGrid","path":"scripts/CreateFurniturePropertyGrid/CreateFurniturePropertyGrid.yy",},"order":0,},
     {"id":{"name":"spr_outdoorObjectTiles","path":"sprites/spr_outdoorObjectTiles/spr_outdoorObjectTiles.yy",},"order":2,},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":3,},
+    {"id":{"name":"PlaceFurniture","path":"scripts/PlaceFurniture/PlaceFurniture.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -62,6 +64,7 @@
     {"folderPath":"folders/Scripts/Ingredients, Inventory, Brewing, Recipes.yy","order":5,"resourceVersion":"1.0","name":"Ingredients, Inventory, Brewing, Recipes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/goblin.yy","order":8,"resourceVersion":"1.0","name":"goblin","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Workers.yy","order":6,"resourceVersion":"1.0","name":"Workers","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Furniture.yy","order":7,"resourceVersion":"1.0","name":"Furniture","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

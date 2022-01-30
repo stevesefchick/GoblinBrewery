@@ -2,6 +2,7 @@
 
 //main properties
 furnitureName="";
+furnitureCost=0;
 
 //sizing
 tileSizeHeight=1;

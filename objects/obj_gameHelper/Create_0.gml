@@ -17,5 +17,6 @@ CreateIngredientPropertyGrid();
 //create brew properties
 CreateBrewBaseAttributeGrid();
 
+
 //test
 DetermineResearchResult(1,1,1);
