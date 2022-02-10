@@ -5,6 +5,16 @@ min_speed=1;
 speed_interval=0.35;
 current_speed=1;
 
+//zoom
+default_zoom_width = 1280;
+default_zoom_height = 720;
+camera_width=default_zoom_width;
+camera_height=default_zoom_height;
+zoom_level=1;
+zoom_rate=0.2;
+zoom_min=0.5;
+zoom_max=2;
+
 
 
 //left bounds

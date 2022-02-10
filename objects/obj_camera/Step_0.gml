@@ -27,8 +27,23 @@ else {
 	current_speed=min_speed;
 }
 
+if (mouse_wheel_down() || mouse_wheel_up())
+{
+	//get the zoom level rate based on the mouse wheel up or down value
+	zoom_level = clamp(zoom_level + (((mouse_wheel_down() - mouse_wheel_up())) * 0.1), zoom_min, zoom_max);
 
+	//set the camera size based on the zoom level rate
+	var new_w = lerp(camera_width, zoom_level * default_zoom_width, zoom_rate);
+	var new_h = lerp(camera_height, zoom_level * default_zoom_height, zoom_rate);
+	camera_set_view_size(view_camera[0], new_w, new_h);
+	
+	//center camera
+	//var vpos_x = camera_get_view_x(view_camera[0]);
+	//var vpos_y = camera_get_view_y(view_camera[0]);
+	//var new_x = lerp(vpos_x,vpos_x+(camera_width - zoom_level * default_zoom_width)/2, zoom_rate);
+	//var new_y = lerp(vpos_y,vpos_y+(camera_height - zoom_level * default_zoom_height)/2, zoom_rate);
 
+}
 
 function increasecameramovespeed()
 {
