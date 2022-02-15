@@ -61,6 +61,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_worker","path":"objects/obj_worker/obj_worker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":544.0,"resourceVersion":"1.0","name":"inst_1F701A61","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_worker","path":"objects/obj_worker/obj_worker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":608.0,"resourceVersion":"1.0","name":"inst_19AC14F1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_furniture_helper","path":"objects/obj_furniture_helper/obj_furniture_helper.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_527CA399","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_timeHelper","path":"objects/obj_timeHelper/obj_timeHelper.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,"resourceVersion":"1.0","name":"inst_76F253F1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"tilesetId":{"name":"ts_woodinteriorAutoTile","path":"tilesets/ts_woodinteriorAutoTile/ts_woodinteriorAutoTile.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":30,"SerialiseHeight":20,"TileSerialiseData":[
@@ -206,6 +207,7 @@
     {"name":"inst_4271FCA","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_19AC14F1","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_527CA399","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_76F253F1","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

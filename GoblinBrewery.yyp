@@ -29,6 +29,7 @@
     {"id":{"name":"CreateMissionObjectiveDataGrid","path":"scripts/CreateMissionObjectiveDataGrid/CreateMissionObjectiveDataGrid.yy",},"order":1,},
     {"id":{"name":"CreateFurniturePropertyGrid","path":"scripts/CreateFurniturePropertyGrid/CreateFurniturePropertyGrid.yy",},"order":0,},
     {"id":{"name":"spr_outdoorObjectTiles","path":"sprites/spr_outdoorObjectTiles/spr_outdoorObjectTiles.yy",},"order":2,},
+    {"id":{"name":"obj_timeHelper","path":"objects/obj_timeHelper/obj_timeHelper.yy",},"order":5,},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":3,},
     {"id":{"name":"PlaceFurniture","path":"scripts/PlaceFurniture/PlaceFurniture.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
