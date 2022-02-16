@@ -2,7 +2,6 @@
 function CreateGoblinName(){
 
 		var gobboname = GetGoblinFirstName() + " " + GetGoblinLastName();
-		show_debug_message(gobboname);
 		return gobboname;
 
 }
@@ -39,7 +38,9 @@ function GetGoblinFirstName()
 	array_push(gobbonamelist,"Bro");
 	array_push(gobbonamelist,"Crem");
 	array_push(gobbonamelist,"Piss");
+	array_push(gobbonamelist,"Gexx");
 	array_push(gobbonamelist,"Grag");
+	array_push(gobbonamelist,"Duck");
 	
 	return gobbonamelist[random_range(0,array_length(gobbonamelist))];
 	
@@ -57,6 +58,8 @@ function GetGoblinLastName()
 	array_push(gobbolastnamelist,"Mudluck");
 	array_push(gobbolastnamelist,"Stynx");
 	array_push(gobbolastnamelist,"Pringle");
+	array_push(gobbolastnamelist,"Brimple");
+	array_push(gobbolastnamelist,"Klikklak");
 	array_push(gobbolastnamelist,"Bruul");
 	array_push(gobbolastnamelist,"Scubble");
 	array_push(gobbolastnamelist,"Rex");
@@ -68,9 +71,11 @@ function GetGoblinLastName()
 	array_push(gobbolastnamelist,"Spek");
 	array_push(gobbolastnamelist,"Bembo");
 	array_push(gobbolastnamelist,"Rikrak");
+	array_push(gobbolastnamelist,"Gribbus");
 	array_push(gobbolastnamelist,"Hellass");
 	array_push(gobbolastnamelist,"Blip");
-	array_push(gobbolastnamelist,"Snack");
+	array_push(gobbolastnamelist,"Ack");
+	array_push(gobbolastnamelist,"Snak");
 	array_push(gobbolastnamelist,"Snek");
 	
 	return gobbolastnamelist[random_range(0,array_length(gobbolastnamelist))];

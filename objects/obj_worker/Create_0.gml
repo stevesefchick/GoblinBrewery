@@ -11,8 +11,13 @@ current_worker_state = worker_state.Idle;
 
 //movement variables
 walk_movement_speed=2;
-run_movement_speed=3;
 wander_destination=[0,0];
+
+//shift details
+worker_start_hour=10;
+worker_end_hour=20;
+
+show_debug_message(worker_name + " is here!");
 
 //set alarm for state changes
 alarm[0] = room_speed * random_range(3,5);

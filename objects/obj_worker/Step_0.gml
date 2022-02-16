@@ -1,10 +1,23 @@
 /// @description goblin step event
 
+//check if the time is paused and stop animation is so
+if (obj_timeHelper.current_speed_setting == time_settings.pause)
+{
+	image_speed=0;
+	//add 1 to the alarm to keep it living
+	alarm[0]+=1;
+}
+else
+{
+	image_speed=1;	
+}
+
+
 if (current_worker_state == worker_state.Idle)
 {
 	sprite_index=spr_goblin_idle;	
 }
-else if (current_worker_state == worker_state.Wandering)
+else if (current_worker_state == worker_state.Wandering && obj_timeHelper.current_speed_setting != time_settings.pause)
 {
 	sprite_index = spr_goblin_move;
 	
