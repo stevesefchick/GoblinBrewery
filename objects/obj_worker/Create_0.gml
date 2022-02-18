@@ -17,7 +17,12 @@ wander_destination=[0,0];
 worker_start_hour=10;
 worker_end_hour=20;
 
+//announce final worker stats
 show_debug_message(worker_name + " is here!");
+
+
+//shader stuff
+uniform_handle = shader_get_uniform(outlineShader,"texture_Pixel");
 
 //set alarm for state changes
 alarm[0] = room_speed * random_range(3,5);
