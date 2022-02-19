@@ -13,6 +13,10 @@ else
 }
 
 
+
+
+
+//state management
 if (current_worker_state == worker_state.Idle)
 {
 	sprite_index=spr_goblin_idle;	
@@ -20,7 +24,6 @@ if (current_worker_state == worker_state.Idle)
 else if (current_worker_state == worker_state.Wandering && obj_timeHelper.current_speed_setting != time_settings.pause)
 {
 	sprite_index = spr_goblin_move;
-	
 	
 	//movement
    if mp_linear_step(wander_destination[0], wander_destination[1], walk_movement_speed,0)

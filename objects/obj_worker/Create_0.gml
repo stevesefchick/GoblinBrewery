@@ -23,6 +23,8 @@ show_debug_message(worker_name + " is here!");
 
 //shader stuff
 uniform_handle = shader_get_uniform(outlineShader,"texture_Pixel");
+border_color = ChangeBorderColorToBlack();
+border_color_uniform_handle = shader_get_uniform(outlineShader,"border_Color");
 
 //set alarm for state changes
 alarm[0] = room_speed * random_range(3,5);

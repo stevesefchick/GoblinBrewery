@@ -5,6 +5,7 @@ varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 
 uniform vec2 texture_Pixel;
+uniform vec4 border_Color;
 
 void main()
 {
@@ -24,7 +25,8 @@ void main()
 		
 		if (alpha != 0.0)
 		{
-			end_pixel=vec4(0.0,0.0,0.0,1.0);
+			//end_pixel=vec4(0.0,0.0,0.0,1.0);
+			end_pixel=border_Color;
 		}
 	}
 	
