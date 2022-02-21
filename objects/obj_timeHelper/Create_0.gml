@@ -18,3 +18,8 @@ current_time_state = time_state.running;
 //time delay
 max_time_delay=5;
 current_time_delay=max_time_delay;
+
+//shader stuff
+time_of_day_uniform_handle = shader_get_uniform(timeOfDayShader,"new_color");
+//color used to draw on the shader
+time_of_day_color=[1.0,1.0,1.0,1.0];
