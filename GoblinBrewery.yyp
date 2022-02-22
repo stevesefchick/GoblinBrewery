@@ -3,6 +3,7 @@
     {"id":{"name":"spr_goblin_idle","path":"sprites/spr_goblin_idle/spr_goblin_idle.yy",},"order":0,},
     {"id":{"name":"spr_tile_collision","path":"sprites/spr_tile_collision/spr_tile_collision.yy",},"order":11,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":2,},
+    {"id":{"name":"obj_uiHelper","path":"objects/obj_uiHelper/obj_uiHelper.yy",},"order":6,},
     {"id":{"name":"spr_goblin_move","path":"sprites/spr_goblin_move/spr_goblin_move.yy",},"order":1,},
     {"id":{"name":"spr_furniture_1","path":"sprites/spr_furniture_1/spr_furniture_1.yy",},"order":10,},
     {"id":{"name":"obj_furniture","path":"objects/obj_furniture/obj_furniture.yy",},"order":4,},
