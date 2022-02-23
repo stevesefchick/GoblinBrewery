@@ -14,8 +14,6 @@ if (current_time_state == time_state.running && current_speed_setting != time_se
 			//move forward the hour
 			time_minute=0;
 			time_hour+=1;
-			
-			show_debug_message("Hour = " + string(time_hour));
 		}
 		
 		//check for end of day

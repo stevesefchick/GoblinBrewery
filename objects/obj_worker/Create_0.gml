@@ -8,6 +8,7 @@ worker_name=CreateGoblinName();
 
 //state management
 current_worker_state = worker_state.Idle;
+showing_worker_name = false;
 
 //movement variables
 walk_movement_speed=2;

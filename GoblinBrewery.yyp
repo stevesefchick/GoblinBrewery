@@ -22,6 +22,7 @@
     {"id":{"name":"ts_outdoorObjects","path":"tilesets/ts_outdoorObjects/ts_outdoorObjects.yy",},"order":1,},
     {"id":{"name":"outlineShader","path":"shaders/outlineShader/outlineShader.yy",},"order":0,},
     {"id":{"name":"ts_woodinteriorAutoTile","path":"tilesets/ts_woodinteriorAutoTile/ts_woodinteriorAutoTile.yy",},"order":4,},
+    {"id":{"name":"GetCameraOffset","path":"scripts/GetCameraOffset/GetCameraOffset.yy",},"order":9,},
     {"id":{"name":"DetermineNextLevel","path":"scripts/DetermineNextLevel/DetermineNextLevel.yy",},"order":0,},
     {"id":{"name":"obj_gameHelper","path":"objects/obj_gameHelper/obj_gameHelper.yy",},"order":0,},
     {"id":{"name":"GetBrewBaseInfo","path":"scripts/GetBrewBaseInfo/GetBrewBaseInfo.yy",},"order":2,},

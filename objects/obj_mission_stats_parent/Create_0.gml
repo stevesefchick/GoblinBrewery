@@ -1,3 +1,3 @@
 /// @mission stats (across all)
 
-money = 0;
+money = 100;
