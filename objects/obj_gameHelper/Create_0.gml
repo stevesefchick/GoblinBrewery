@@ -17,6 +17,8 @@ CreateIngredientPropertyGrid();
 //create brew properties
 CreateBrewBaseAttributeGrid();
 
+//fonts
+//font_add(fnt_lantern,16,false,false,32,128);
 
 //test
 DetermineResearchResult(1,1,1);

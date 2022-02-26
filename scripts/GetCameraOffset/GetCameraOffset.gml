@@ -1,8 +1,8 @@
 
-function GetCameraOffsetX(startval){
-	return ((startval - obj_camera.x) +640);
+function GetCameraOffsetX(startval,offset){
+	return ((startval - obj_camera.x) +640 + offset);
 }
 
-function GetCameraOffsetY(startval){
-	return ((startval - obj_camera.y) +360);
+function GetCameraOffsetY(startval,offset){
+	return ((startval - obj_camera.y) +360 + offset);
 }

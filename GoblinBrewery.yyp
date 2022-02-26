@@ -57,6 +57,7 @@
     {"id":{"name":"CreateBrewBaseAttributeGrid","path":"scripts/CreateBrewBaseAttributeGrid/CreateBrewBaseAttributeGrid.yy",},"order":1,},
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},"order":1,},
     {"id":{"name":"DetermineResearchResult","path":"scripts/DetermineResearchResult/DetermineResearchResult.yy",},"order":3,},
+    {"id":{"name":"fnt_lantern","path":"fonts/fnt_lantern/fnt_lantern.yy",},"order":0,},
     {"id":{"name":"ChangeBorderColorToRed","path":"scripts/ChangeBorderColorToRed/ChangeBorderColorToRed.yy",},"order":2,},
     {"id":{"name":"__shd_scribble_bake_outline_4dir","path":"shaders/__shd_scribble_bake_outline_4dir/__shd_scribble_bake_outline_4dir.yy",},"order":1,},
     {"id":{"name":"scribble_anim_wheel","path":"scripts/scribble_anim_wheel/scribble_anim_wheel.yy",},"order":8,},
@@ -178,7 +179,9 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":false,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ChevyRay - Lantern.ttf","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2022.1.1.610",
   },
