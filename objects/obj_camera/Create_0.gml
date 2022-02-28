@@ -18,9 +18,9 @@ zoom_max=2;
 
 
 //left bounds
-camera_left_bounds=400;
+camera_left_bounds=650;
 //right bounds
-camera_right_bounds=room_width-400;
+camera_right_bounds=room_width-650;
 //top bounds
 camera_top_bounds=400;
 //bottom bounds
