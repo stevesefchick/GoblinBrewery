@@ -2,6 +2,8 @@
 time_day=1;
 time_hour=0;
 time_minute=0;
+time_minute_for_ui=0;
+time_hour_for_ui=0;
 
 //end of / start of day variables
 start_hour=6;

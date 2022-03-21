@@ -50,5 +50,16 @@ if (keyboard_check_pressed(vk_enter)){
 	}
 }
 
+//update for ui
+time_minute_for_ui = time_minute;
+time_hour_for_ui= time_hour;
+if (time_minute < 10)
+{
+	time_minute_for_ui = "0" + string(time_minute);	
+}
+if (time_hour < 10)
+{
+	time_hour_for_ui = "0" + string(time_hour);	
+}
 
 ChangeColorBasedOnTime();

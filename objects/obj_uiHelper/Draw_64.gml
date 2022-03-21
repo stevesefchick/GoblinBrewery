@@ -1,5 +1,5 @@
 draw_set_font(fnt_lantern);
-draw_text_scribble(100, 100, "[c_white]"+"time: " + string(obj_timeHelper.time_hour) + ":" + string(obj_timeHelper.time_minute));
+draw_text_scribble(100, 100, "[c_white]"+"time: " + string(obj_timeHelper.time_hour_for_ui) + ":" + string(obj_timeHelper.time_minute_for_ui));
 draw_text_scribble(100, 150, "[c_white]"+"gold: [c_yellow]" + string(obj_mission_stats_parent.money));
 
 
