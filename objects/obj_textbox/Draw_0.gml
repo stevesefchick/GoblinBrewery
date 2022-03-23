@@ -1,0 +1,9 @@
+draw_sprite(ui_window,0,textbox_location_x-64,textbox_location_y);
+draw_sprite(ui_window,1,textbox_location_x,textbox_location_y);
+draw_sprite(ui_window,2,textbox_location_x+64,textbox_location_y);
+draw_sprite(ui_window,3,textbox_location_x-64,textbox_location_y+64);
+draw_sprite(ui_window,4,textbox_location_x,textbox_location_y+64);
+draw_sprite(ui_window,5,textbox_location_x+64,textbox_location_y+64);
+draw_sprite(ui_window,6,textbox_location_x-64,textbox_location_y+128);
+draw_sprite(ui_window,7,textbox_location_x,textbox_location_y+128);
+draw_sprite(ui_window,8,textbox_location_x+64,textbox_location_y+128);

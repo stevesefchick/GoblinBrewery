@@ -12,3 +12,9 @@ for (var i = 0; i < instance_number(obj_worker); ++i;)
 		draw_text_scribble(10, 10, "[c_red][fa_left]"+worker.worker_name);
 	}
 }
+
+for (var i = 0; i < instance_number(obj_textbox); ++i;)
+{
+	//do something maybe
+}
+
