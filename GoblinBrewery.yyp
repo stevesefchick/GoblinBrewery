@@ -13,6 +13,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":2,},
     {"id":{"name":"obj_uiHelper","path":"objects/obj_uiHelper/obj_uiHelper.yy",},"order":6,},
     {"id":{"name":"__scribble_config_behaviours","path":"scripts/__scribble_config_behaviours/__scribble_config_behaviours.yy",},"order":0,},
+    {"id":{"name":"CreateTextBox","path":"scripts/CreateTextBox/CreateTextBox.yy",},"order":0,},
     {"id":{"name":"spr_goblin_move","path":"sprites/spr_goblin_move/spr_goblin_move.yy",},"order":1,},
     {"id":{"name":"__scribble_class_element","path":"scripts/__scribble_class_element/__scribble_class_element.yy",},"order":0,},
     {"id":{"name":"__scribble_font_add_msdf_from_project","path":"scripts/__scribble_font_add_msdf_from_project/__scribble_font_add_msdf_from_project.yy",},"order":7,},
@@ -92,6 +93,7 @@
     {"id":{"name":"GetBrewBaseInfo","path":"scripts/GetBrewBaseInfo/GetBrewBaseInfo.yy",},"order":2,},
     {"id":{"name":"spr_grass_autotile","path":"sprites/spr_grass_autotile/spr_grass_autotile.yy",},"order":6,},
     {"id":{"name":"scribble_font_bake_outline_8dir_2px","path":"scripts/scribble_font_bake_outline_8dir_2px/scribble_font_bake_outline_8dir_2px.yy",},"order":2,},
+    {"id":{"name":"GetTextBoxLengthScale","path":"scripts/GetTextBoxLengthScale/GetTextBoxLengthScale.yy",},"order":1,},
     {"id":{"name":"CreateGoblinName","path":"scripts/CreateGoblinName/CreateGoblinName.yy",},"order":0,},
     {"id":{"name":"timeOfDayShader","path":"shaders/timeOfDayShader/timeOfDayShader.yy",},"order":1,},
     {"id":{"name":"ts_collision","path":"tilesets/ts_collision/ts_collision.yy",},"order":6,},
@@ -175,6 +177,7 @@
     {"folderPath":"folders/Scribble/Miscellaneous.yy","order":5,"resourceVersion":"1.0","name":"Miscellaneous","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scribble/Superfonts.yy","order":6,"resourceVersion":"1.0","name":"Superfonts","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/ui.yy","order":12,"resourceVersion":"1.0","name":"ui","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/UI.yy","order":10,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

@@ -1,6 +1,9 @@
 /// @camera code
 
-
+if (obj_gameHelper.isWindowOpen==true)
+{
+	current_speed=0;	
+}
 
 //directional movement of camera
 if (keyboard_check(vk_left) && x > camera_left_bounds){
@@ -27,7 +30,11 @@ else {
 	current_speed=min_speed;
 }
 
-if (mouse_wheel_down() || mouse_wheel_up())
+
+
+
+//zoom in/out
+if ((mouse_wheel_down() || mouse_wheel_up()) && obj_gameHelper.isWindowOpen==false)
 {
 	//get the zoom level rate based on the mouse wheel up or down value
 	zoom_level = clamp(zoom_level + (((mouse_wheel_down() - mouse_wheel_up())) * 0.1), zoom_min, zoom_max);

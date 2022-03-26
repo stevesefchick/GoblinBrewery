@@ -3,6 +3,9 @@
 //debug flag
 debugMode=true;
 
+//flags and checks
+isWindowOpen=false;
+
 //overall stats
 //TODO: Move this over to a list or map
 reputationLevel=0;
