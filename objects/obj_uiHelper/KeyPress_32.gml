@@ -1,2 +1,2 @@
 //debug, create textbox on mouse location
-CreateTextBox(mouse_x,mouse_y,200,200);
+CreateTextBox(mouse_x,mouse_y,200,200,"hell ass");

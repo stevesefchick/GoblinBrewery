@@ -11,3 +11,8 @@ draw_sprite_ext(ui_window,5,textbox_location_x+textbox_width-64,textbox_location
 draw_sprite_ext(ui_window,6,textbox_location_x-64,textbox_location_y+textbox_height,1,1,0,c_white,1);
 draw_sprite_ext(ui_window,7,textbox_location_x,textbox_location_y+textbox_height,textbox_width_scale,1,0,c_white,1);
 draw_sprite_ext(ui_window,8,textbox_location_x+textbox_width-64,textbox_location_y+textbox_height,1,1,0,c_white,1);
+
+//draw title
+draw_set_font(fnt_lantern);
+draw_text_scribble(GetCameraOffsetX(textbox_location_x,0),GetCameraOffsetY(textbox_location_y,0),"[wheel]"+textbox_title);
+		
