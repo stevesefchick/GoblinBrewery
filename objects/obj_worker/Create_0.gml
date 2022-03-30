@@ -1,13 +1,23 @@
 /// @description create worker object
 
 //enums
-enum worker_state { Idle,Wandering}
+//Idle --> stand still
+//Wandering --> wander in a random direction (will switch between Idle and Wandering)
+//MoveTowardsTrash --> move in the direction of trash
+//CleanupTrash --> clean up the trash on the ground
+enum worker_state { Idle,Wandering,MoveTowardsTrash,CleanupTrash}
+
+//Nothing --> No assignment, wanders around
+//Cleanup --> MoveTowardsTrash, CleanupTrash, then idle
+enum worker_assignment {Nothing, Cleanup}
+
 
 //create worker details
 worker_name=CreateGoblinName();
 
 //state management
 current_worker_state = worker_state.Idle;
+current_worker_assignment=worker_assignment.Nothing;
 showing_worker_name = false;
 
 //movement variables

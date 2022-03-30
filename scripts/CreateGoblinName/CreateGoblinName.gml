@@ -46,6 +46,7 @@ function GetGoblinFirstName()
 	array_push(gobbonamelist,"Icky");
 	array_push(gobbonamelist,"Likk");
 	array_push(gobbonamelist,"Spug");
+	array_push(gobbonamelist,"Pu");
 	
 	return gobbonamelist[random_range(0,array_length(gobbonamelist))];
 	
@@ -84,6 +85,7 @@ function GetGoblinLastName()
 	array_push(gobbolastnamelist,"Snek");
 	array_push(gobbolastnamelist,"Frik");
 	array_push(gobbolastnamelist,"Spuz");
+	array_push(gobbolastnamelist,"Raz");
 	
 	return gobbolastnamelist[random_range(0,array_length(gobbolastnamelist))];
 	
