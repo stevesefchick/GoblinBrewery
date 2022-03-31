@@ -1,25 +1,12 @@
 /// @description State delay changes (Idle/Wandering)
 
-if (current_worker_state == worker_state.Idle)
+//nothing
+if (current_worker_assignment== worker_assignment.Nothing)
 {
-	current_worker_state=worker_state.Wandering;
-	wander_destination[0] = x + random_range(-100,100);
-	wander_destination[1] = y + random_range(-100,100);
-	
-	if (wander_destination[0] < x)
-	{
-		image_xscale=-1;	
-	}
-	else
-	{
-		image_xscale=1;
-	}
-	
-	
-	alarm[0] = room_speed * random_range(1,4);
+	WorkerNothingAlarm(self);
 }
-else if (current_worker_state == worker_state.Wandering)
+//cleanup
+if (current_worker_assignment== worker_assignment.Cleanup)
 {
-	current_worker_state=worker_state.Idle;
-	alarm[0] = room_speed * random_range(1,2);
+	WorkerCleanupAlarm(self);
 }
