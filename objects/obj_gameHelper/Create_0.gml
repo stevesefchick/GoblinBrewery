@@ -1,4 +1,6 @@
 /// @Game Helper scripts and global variables
+//new random seed
+randomise();
 
 //debug flag
 debugMode=true;
