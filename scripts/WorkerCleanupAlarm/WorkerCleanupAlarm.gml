@@ -8,18 +8,8 @@ function WorkerCleanupAlarm(worker_inst){
 		var closest_trash = instance_nearest(worker_inst.x,worker_inst.y,obj_trash);
 		show_debug_message(closest_trash);
 		
-		//if no trash, wander around
-		if (closest_trash == undefined)
-		{
-			worker_inst.current_worker_state=worker_state.Wandering;
-			worker_inst.wander_destination[0] = worker_inst.x + random_range(-100,100);
-			worker_inst.wander_destination[1] = worker_inst.y + random_range(-100,100);
-	
-
-			worker_inst.alarm[0] = room_speed * random_range(1,4);		
-		}
 		//if there is trash, head towards it
-		else
+		if (closest_trash > 0)
 		{
 			worker_inst.current_worker_state=worker_state.MoveTowardsTrash;
 			worker_inst.wander_destination[0] = closest_trash.x;
@@ -27,6 +17,17 @@ function WorkerCleanupAlarm(worker_inst){
 			//get rid of this?
 			worker_inst.alarm[0] = room_speed * random_range(1,4);
 		}
+		//if not, just wander around
+		else
+		{
+			worker_inst.current_worker_state=worker_state.Wandering;
+			worker_inst.wander_destination[0] = worker_inst.x + random_range(-100,100);
+			worker_inst.wander_destination[1] = worker_inst.y + random_range(-100,100);
+	
+
+			worker_inst.alarm[0] = room_speed * random_range(1,4);					
+		}
+
 		
 		
 		//face the right direction depending on x destination
@@ -47,13 +48,18 @@ function WorkerCleanupAlarm(worker_inst){
 		
 		//if it doesn't, idle
 		worker_inst.current_worker_state=worker_state.Idle;
-		alarm[0] = room_speed * random_range(1,2);
+		worker_inst.alarm[0] = room_speed * random_range(1,2);
 	}
 	else if (worker_inst.current_worker_state == worker_state.CleanupTrash)
 	{
 		//clean up trash until timer is done, based on skill, then return to idle
+		var closest_trash = instance_nearest(worker_inst.x,worker_inst.y,obj_trash);
+		if (closest_trash > 0)
+		{
+			instance_destroy(closest_trash);
+		}
 		worker_inst.current_worker_state=worker_state.Idle;
-		alarm[0] = room_speed * random_range(1,2);
+		worker_inst.alarm[0] = room_speed * random_range(1,2);
 	}
 	else if (worker_inst.current_worker_state == worker_state.Wandering)
 	{
@@ -61,7 +67,7 @@ function WorkerCleanupAlarm(worker_inst){
 		
 		//if no trash, chill
 		worker_inst.current_worker_state=worker_state.Idle;
-		alarm[0] = room_speed * random_range(1,2);
+		worker_inst.alarm[0] = room_speed * random_range(1,2);
 	}
 
 

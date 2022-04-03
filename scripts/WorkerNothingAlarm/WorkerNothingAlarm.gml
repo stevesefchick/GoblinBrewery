@@ -23,7 +23,7 @@ function WorkerNothingAlarm(worker_inst){
 	else if (worker_inst.current_worker_state == worker_state.Wandering)
 	{
 		worker_inst.current_worker_state=worker_state.Idle;
-		alarm[0] = room_speed * random_range(1,2);
+		worker_inst.alarm[0] = room_speed * random_range(1,2);
 	}
 
 }
