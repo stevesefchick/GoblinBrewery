@@ -36,7 +36,7 @@ else if (current_worker_state == worker_state.MoveTowardsTrash && obj_timeHelper
 }
 else if (current_worker_state == worker_state.CleanupTrash && obj_timeHelper.current_speed_setting != time_settings.pause)
 {
-	sprite_index = spr_goblin_move;
+	sprite_index = spr_goblin_clean;
 }
 
 depth = -y;

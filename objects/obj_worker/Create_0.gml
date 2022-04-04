@@ -25,7 +25,7 @@ walk_movement_speed=2;
 wander_destination=[0,0];
 
 //attributes and timing variables
-worker_time_to_cleanup = 10;
+worker_time_to_cleanup = 120;
 
 //shift details
 worker_start_hour=10;
