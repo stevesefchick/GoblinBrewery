@@ -25,6 +25,15 @@ function CreateTextBox(x_loc,y_loc,x_size,y_size,textbox_type,position_absolute)
 			textbox_height_scale=GetTextBoxLengthScale(y_size);
 			//title and text stuff
 			textbox_title=textbox_type;
+			
+			//create X Button
+			var x_inst = instance_create_layer(textbox_location_x+textbox_width-64,textbox_location_y+16,"Instances",obj_x_button);
+			with (x_inst)
+			{
+				//figure out depth
+				x_inst.depth = inst.depth+1;
+				x_inst.textbox_ref_id=inst;	
+			}
 		}
 		
 		obj_gameHelper.isWindowOpen=true;
