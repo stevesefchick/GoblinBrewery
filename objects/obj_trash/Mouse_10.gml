@@ -1,0 +1,1 @@
+border_color = ChangeBorderColorToWhite();
