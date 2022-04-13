@@ -20,3 +20,7 @@ draw_sprite_ext(ui_window,8,x+textbox_width-64,y+textbox_height,1,1,0,c_white,1)
 draw_set_font(fnt_lantern);
 draw_text_scribble(x + (textbox_width/4),y+25,"[c_white][wheel]"+textbox_title);
 		
+if (textbox_title=="Assignments")
+{
+	DrawWorkerAssignmentWindow();	
+}
