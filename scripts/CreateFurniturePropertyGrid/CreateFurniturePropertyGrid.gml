@@ -6,8 +6,10 @@ function CreateFurniturePropertyGrid(){
 	var furniture_name=1;
 	var furniture_size=2;
 	var furniture_gold_cost=3;
+	var top_rect=4;
+	var left_rect=5;
 
-	ds_furniture_properties = ds_grid_create(4,3);
+	ds_furniture_properties = ds_grid_create(6,3);
 	
 	
 	for (var counter=0;counter<ds_grid_height(ds_furniture_properties);counter++)
@@ -19,6 +21,8 @@ function CreateFurniturePropertyGrid(){
 			ds_grid_set(ds_furniture_properties,furniture_name,counter,"chair");
 			ds_grid_set(ds_furniture_properties,furniture_size,counter,1);
 			ds_grid_set(ds_furniture_properties,furniture_gold_cost,counter,75);
+			ds_grid_set(ds_furniture_properties,top_rect,counter,0);
+			ds_grid_set(ds_furniture_properties,left_rect,counter,0);
 			
 			/*
 			show_debug_message("furniture properties debug");
@@ -35,6 +39,8 @@ function CreateFurniturePropertyGrid(){
 			ds_grid_set(ds_furniture_properties,furniture_name,counter,"barrel");
 			ds_grid_set(ds_furniture_properties,furniture_size,counter,1);
 			ds_grid_set(ds_furniture_properties,furniture_gold_cost,counter,25);
+			ds_grid_set(ds_furniture_properties,top_rect,counter,0);
+			ds_grid_set(ds_furniture_properties,left_rect,counter,0);
 		}
 		//table
 		else if (counter==2)
@@ -43,6 +49,8 @@ function CreateFurniturePropertyGrid(){
 			ds_grid_set(ds_furniture_properties,furniture_name,counter,"table");
 			ds_grid_set(ds_furniture_properties,furniture_size,counter,1);
 			ds_grid_set(ds_furniture_properties,furniture_gold_cost,counter,150);
+			ds_grid_set(ds_furniture_properties,top_rect,counter,0);
+			ds_grid_set(ds_furniture_properties,left_rect,counter,64);
 		}
 	}
 	

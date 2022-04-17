@@ -17,7 +17,21 @@ function PlaceFurniture(x_loc,y_loc,f_name){
 		with(inst){
 			//assign name
 			furnitureName=f_name;
-			furnitureCost= obj_furniture_helper.ds_furniture_properties[# 3,furnitureType.chair];
+			var thisType = furnitureType.chair;
+			
+			if (furnitureName=="chair")
+			{
+				thisType = furnitureType.chair;
+			}
+			else if (furnitureName=="table")
+			{
+				thisType = furnitureType.table;
+			}
+			
+			
+			tileTopRect= obj_furniture_helper.ds_furniture_properties[# 4,thisType];
+			tileLeftRect= obj_furniture_helper.ds_furniture_properties[# 5,thisType];
+			furnitureCost= obj_furniture_helper.ds_furniture_properties[# 3,thisType];
 			
 			show_debug_message("furniture placed at x="+string(grid_x) + " y=" + string(grid_y));
 		}	

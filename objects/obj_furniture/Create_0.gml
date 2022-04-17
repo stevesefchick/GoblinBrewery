@@ -7,6 +7,8 @@ furnitureCost=0;
 //sizing
 tileSizeHeight=64;
 tileSizeWidth=64;
+tileTopRect=0;
+tileLeftRect=0;
 
 //center adjust
 xx= x - (tileSizeWidth/2);
