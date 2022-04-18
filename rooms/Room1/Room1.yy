@@ -62,6 +62,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_timeHelper","path":"objects/obj_timeHelper/obj_timeHelper.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,"resourceVersion":"1.0","name":"inst_76F253F1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_uiHelper","path":"objects/obj_uiHelper/obj_uiHelper.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":0.0,"resourceVersion":"1.0","name":"inst_49FAD228","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_mission_stats_parent","path":"objects/obj_mission_stats_parent/obj_mission_stats_parent.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":0.0,"resourceVersion":"1.0","name":"inst_165A2894","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_levelSpawnPoint","path":"objects/obj_levelSpawnPoint/obj_levelSpawnPoint.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1664.0,"y":1184.0,"resourceVersion":"1.0","name":"inst_495978E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_levelSpawnPoint","path":"objects/obj_levelSpawnPoint/obj_levelSpawnPoint.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":1184.0,"resourceVersion":"1.0","name":"inst_24D56707","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"tilesetId":{"name":"ts_woodinteriorAutoTile","path":"tilesets/ts_woodinteriorAutoTile/ts_woodinteriorAutoTile.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":30,"SerialiseHeight":20,"TileSerialiseData":[
@@ -208,6 +210,8 @@
     {"name":"inst_76F253F1","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_49FAD228","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_165A2894","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_495978E","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_24D56707","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

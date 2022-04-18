@@ -12,7 +12,7 @@ CreateWorker(950,600);
 //debug, add some tables
 PlaceFurniture(640+32,640+32,"table");
 PlaceFurniture(960+32,640+32,"table");
-PlaceFurniture(640+32,960+32,"table");
+PlaceFurniture(768+32,512+32,"table");
 
 //debug, add a bunch of trash
 CreateTrash(700,500);
