@@ -6,7 +6,6 @@ function WorkerCleanupAlarm(worker_inst){
 	{
 		//check for nearby trash
 		var closest_trash = instance_nearest(worker_inst.x,worker_inst.y,obj_trash);
-		show_debug_message(closest_trash);
 		
 		//if there is trash, head towards it
 		if (closest_trash > 0)

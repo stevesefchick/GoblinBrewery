@@ -3,20 +3,26 @@ function PlaceFurniture(x_loc,y_loc,f_name){
 	
 	var grid_x = x_loc div 64;
 	var grid_y = y_loc div 64;
+	
+
+	var furnitureName=f_name;
 
 	//get placed furniture grid
 	var i_grid = obj_furniture_helper.ds_placed_furniture_grid;
 	//get cell to check for existing furniture
 	var cell = i_grid[# grid_x,grid_y];
+	show_debug_message(cell);
 	
-	if (cell == 0 && obj_gameHelper.isWindowOpen == false)
+	
+	if (cell == 0 && obj_gameHelper.isWindowOpen == false)// && 
+	//(f_name=="chair" && CheckChairAvailability(f_name,grid_x,grid_y,i_grid) || f_name != "chair"))
 	{
 		var inst = instance_create_layer(x_loc,y_loc,"Instances",obj_furniture);
 		i_grid[# grid_x,grid_y] = inst;
 
 		with(inst){
+
 			//assign name
-			furnitureName=f_name;
 			var thisType = furnitureType.chair;
 			
 			if (furnitureName=="chair")
